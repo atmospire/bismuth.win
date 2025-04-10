@@ -1,0 +1,38 @@
+{
+    "name": "atmospire.dev",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build --turbopack",
+        "start": "next start --turbopack",
+        "lint": "eslint \"src/**/*.+(ts|tsx)\"",
+        "lint:fix": "eslint \"src/**/*.+(ts|tsx)\" --fix",
+        "prettier": "prettier . --check",
+        "prettier:fix": "prettier . --write"
+    },
+    "dependencies": {
+        "@mantine/core": "7.17.4",
+        "@tabler/icons-react": "^3.31.0",
+        "next": "^15.3.0",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.1",
+        "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+        "@types/node": "22.14.0",
+        "@types/react": "19.1.0",
+        "@types/react-dom": "19.1.2",
+        "@typescript-eslint/eslint-plugin": "8.29.1",
+        "@typescript-eslint/parser": "8.29.1",
+        "eslint": "9.24.0",
+        "eslint-config-next": "15.3.0",
+        "eslint-config-prettier": "10.1.2",
+        "eslint-plugin-prettier": "5.2.6",
+        "prettier": "^3.5.3",
+        "prettier-plugin-sort-json": "^4.1.1",
+        "sass-embedded": "1.86.3",
+        "typescript": "5.8.3"
+    }
+}

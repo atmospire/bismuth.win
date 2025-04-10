@@ -1,0 +1,25 @@
+.social {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    background-color: var(--mantine-color-primary-7);
+    border-color: var(--mantine-color-primary-9);
+}
+
+.socialDisabled {
+    composes: social;
+    cursor: initial;
+    opacity: 0.3;
+}
+
+.socialDisabled:hover {
+    transform: initial;
+    filter: initial;
+    opacity: 0.5;
+    background-color: initial;
+}
