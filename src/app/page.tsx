@@ -1,6 +1,6 @@
 "use client";
 
-import { ActionIcon, Avatar, Card, Container, Flex, Image, rem, Text, Title } from "@mantine/core";
+import { Container, Flex, Image, rem, Text, Title } from "@mantine/core";
 import { IconBrandGithub, IconCat, IconCloudRain, IconQuestionMark, IconSpiral } from "@tabler/icons-react";
 
 import { Social } from "@/components";

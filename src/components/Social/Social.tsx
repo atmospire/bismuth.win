@@ -1,7 +1,7 @@
 "use client";
 
 import { ForwardRefExoticComponent, RefAttributes } from "react";
-import { Card, Flex, rem, Text, Tooltip } from "@mantine/core";
+import { Card, Tooltip } from "@mantine/core";
 import { Icon, IconProps } from "@tabler/icons-react";
 
 import styles from "./Social.module.scss";
@@ -19,7 +19,9 @@ export function Social({ name, href, Icon, disabled }: SocialProps) {
             <Card
                 withBorder
                 onClick={() => {
-                    if (!disabled) window.open(href, "_blank");
+                    if (!disabled) {
+                        window.open(href, "_blank");
+                    }
                 }}
                 className={disabled ? styles.socialDisabled : styles.social}
             >
