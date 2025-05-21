@@ -1,0 +1,38 @@
+.card {
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(37, 37, 37, 0.5);
+    color: white;
+}
+
+.icon {
+    padding: 0.7rem;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(49, 49, 49, 0.4);
+    color: white;
+}
+
+.iconDisabled {
+    composes: icon;
+    background-color: rgba(49, 49, 49, 1);
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.cardDisabled {
+    composes: card;
+    cursor: initial;
+    opacity: 0.3;
+    color: white;
+}
+
+.cardDisabled:hover {
+    transform: initial;
+    filter: initial;
+    opacity: 0.5;
+}
