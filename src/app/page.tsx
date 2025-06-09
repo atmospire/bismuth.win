@@ -3,6 +3,7 @@
 import { Container, Flex, Image, rem, Text, Title } from "@mantine/core";
 import {
     IconBrandGithub,
+    IconBrandSteam,
     IconCat,
     IconCloudRain,
     IconCode,
@@ -62,6 +63,7 @@ export default function Home() {
                         <Text size={rem(25)}>creating and developing all sorts of stuff</Text>
                         <Flex gap={"sm"} mt={rem(25)}>
                             {/* Spot for socials */}
+                            <Social href="https://steamcommunity.com/groups/atmospire" Icon={IconBrandSteam} />
                             <Social href="https://github.com/atmospire" Icon={IconBrandGithub} />
                             <Social href="https://cat.basil.florist" Icon={IconCat} />
                             <Social Icon={IconSpiral} disabled />
