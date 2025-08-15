@@ -63,8 +63,8 @@ export default function Home() {
                         <Text size={rem(25)}>creating and developing all sorts of stuff</Text>
                         <Flex gap={"sm"} mt={rem(25)}>
                             {/* Spot for socials */}
-                            <Social href="https://steamcommunity.com/groups/bismuth" Icon={IconBrandSteam} />
-                            <Social href="https://github.com/bismuth" Icon={IconBrandGithub} />
+                            <Social href="https://steamcommunity.com/groups/atmospire" Icon={IconBrandSteam} />
+                            <Social href="https://github.com/atmospire" Icon={IconBrandGithub} />
                             <Social href="https://cat.basil.florist" Icon={IconCat} />
                             <Social Icon={IconSpiral} disabled />
                             <Social href="https://www.youtube.com/watch?v=fq3abPnEEGE" Icon={IconQuestionMark} />
