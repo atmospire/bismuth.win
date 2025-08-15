@@ -8,8 +8,8 @@ import { mantineHtmlProps } from "@mantine/core";
 import Providers from "./Providers";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://atmospire.dev"),
-    title: "Atmospire",
+    metadataBase: new URL("https://bismuth.win"),
+    title: "Bismuth",
     description: "Creating and developing all sorts of stuff.",
     icons: {
         apple: "/favicon/apple-touch-icon.png",

@@ -21,7 +21,7 @@ const links: NavCardProps[] = [
     {
         name: "Projects",
         description:
-            "We have many projects at Atmospire ranging from software projects, to projects revolving around managing our server and much more.",
+            "We have many projects at Bismuth ranging from software projects, to projects revolving around managing our server and much more.",
         href: Routes.PROJECTS,
         Icon: IconCode,
         disabled: true,
@@ -29,7 +29,7 @@ const links: NavCardProps[] = [
     {
         name: "Servers",
         description:
-            "Atmospire hosts many game servers, primarily for Source Engine games like Team Fortress 2. But we dabble in other games too.",
+            "Bismuth hosts many game servers, primarily for Source Engine games like Team Fortress 2. But we dabble in other games too.",
         href: Routes.SERVERS,
         Icon: IconServer2,
     },
@@ -41,7 +41,7 @@ const links: NavCardProps[] = [
         disabled: true,
     },
     {
-        name: "About Atmospire",
+        name: "About Bismuth",
         description: "",
         href: Routes.ABOUT,
         Icon: IconCloudRain,
@@ -53,18 +53,18 @@ export default function Home() {
     return (
         <>
             <Flex pos={"absolute"} w={"100%"} h={"100%"} style={{ flexGrow: 1 }} align={"center"} justify={"center"}>
-                <Image src={"/img/atmospire-gray.svg"} alt={"atmospire logo"} w={"95vh"} opacity={0.025} />
+                <Image src={"/img/bismuth-gray.svg"} alt={"bismuth logo"} w={"95vh"} opacity={0.025} />
             </Flex>
             <Container fluid h={"100dvh"} w={"100%"} pl={rem(200)} pr={rem(100)}>
                 <Flex w={"100%"} h={"100%"} justify={"space-between"} align={"center"}>
                     <Flex direction={"column"} gap={"sm"}>
-                        <Title size={rem(75)}>Atmospire</Title>
+                        <Title size={rem(75)}>Bismuth</Title>
                         <Text size={rem(25)}>We are a small group of people</Text>
                         <Text size={rem(25)}>creating and developing all sorts of stuff</Text>
                         <Flex gap={"sm"} mt={rem(25)}>
                             {/* Spot for socials */}
-                            <Social href="https://steamcommunity.com/groups/atmospire" Icon={IconBrandSteam} />
-                            <Social href="https://github.com/atmospire" Icon={IconBrandGithub} />
+                            <Social href="https://steamcommunity.com/groups/bismuth" Icon={IconBrandSteam} />
+                            <Social href="https://github.com/bismuth" Icon={IconBrandGithub} />
                             <Social href="https://cat.basil.florist" Icon={IconCat} />
                             <Social Icon={IconSpiral} disabled />
                             <Social href="https://www.youtube.com/watch?v=fq3abPnEEGE" Icon={IconQuestionMark} />

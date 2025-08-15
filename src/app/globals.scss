@@ -1,6 +1,11 @@
+$opacity: 0.3;
+
 body {
     color: white;
-    background-color: #31162c;
+    // background-color: #31162c;
+    background: linear-gradient(45deg, rgba(244, 118, 118, $opacity) 0%, rgba(246, 175, 86, $opacity) 25%, rgba(163, 242, 145, $opacity) 50%, rgba(215, 141, 249, $opacity) 75%, rgba(127, 218, 238, $opacity) 100%);
+    background-size: 400% 400%;
+    animation: bismuthGradient 15s ease infinite;
 
     // make anything unselectable
     -webkit-user-select: none;
@@ -20,5 +25,19 @@ body {
         -o-user-drag: none;
         -ms-user-drag: none;
         user-drag: none;
+    }
+}
+
+@keyframes bismuthGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }
